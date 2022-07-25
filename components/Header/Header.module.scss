@@ -1,0 +1,30 @@
+.header {
+  padding: 2rem 0;
+  color: $color-white;
+  //background-color: rgba($color-black, 0.25);
+}
+
+.header_body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "Merriweather", serif;
+  font-size: 2.6rem;
+}
+
+.navigation {
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    li {
+      cursor: pointer;
+      &:link,
+      &:visited {
+        color: $color-white;
+      }
+    }
+  }
+}
