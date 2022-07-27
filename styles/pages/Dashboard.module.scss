@@ -1,0 +1,14 @@
+.project_info {
+  margin: 5rem 0;
+  div {
+    display: flex;
+  }
+  & > div {
+    p:first-child {
+      font-weight: 700;
+    }
+    p:last-child {
+      margin-left: 0.5rem;
+    }
+  }
+}

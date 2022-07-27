@@ -4,7 +4,7 @@ import Login from "../components/Login/Login"
 import { useState } from "react"
 import Register from "../components/Register/Register"
 
-export default function Home() {
+function Home() {
   const [currentView, setView] = useState("login")
   return (
     <>
@@ -23,3 +23,7 @@ export default function Home() {
     </>
   )
 }
+
+Home.layout = "login"
+
+export default Home

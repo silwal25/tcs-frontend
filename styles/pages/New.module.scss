@@ -1,0 +1,11 @@
+.form {
+  input,
+  textarea {
+    border-radius: 1.5rem !important;
+    background-color: rgba($color-white, 0.7) !important;
+    color: rgb(100, 100, 100) !important;
+    &::placeholder {
+      color: rgb(120, 120, 120) !important;
+    }
+  }
+}
