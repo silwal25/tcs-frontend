@@ -67,4 +67,11 @@
   background-color: rgba($color-white, 0.7);
   padding: 8rem 5rem;
   border-radius: 3rem 0 0 3rem;
+  & > div:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
+
+.calendar_cal {
+  margin-top: 3rem;
 }
